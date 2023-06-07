@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@regressao",
+        tags = "@wip",
         plugin = {"html:target/generated-reports/cucumber.html", "json:target/generated-reports/cucumber.json", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 
